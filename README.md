@@ -1,6 +1,6 @@
 # Does JEPA help low-resource Indian-language NLP?
 
-Two controlled experiments on **Assamese**, run end to end on a single 48 GB MacBook Pro.
+Two controlled experiments on **Assamese**, run end to end on a single Laptop.
 **Both results are negative**, and the logs show *why*.
 
 | # | Question | Result |
