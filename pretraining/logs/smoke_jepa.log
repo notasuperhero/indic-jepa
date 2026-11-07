@@ -1,0 +1,14 @@
+device mps  method jepa  vocab 8000  train tokens 39,600,000  epochs over data ~0.0
+trainable parameters 7.50M
+{'step': 1, 'loss': 0.5287, 'target_std': 0.6621, 'pred_std': 0.7079, 'lr': 5e-05, 'sec': 0, 'ms_per_step': 274}
+{'step': 20, 'loss': 0.2358, 'target_std': 0.5707, 'pred_std': 0.0422, 'lr': 0.000488, 'sec': 3, 'ms_per_step': 151}
+{'step': 40, 'loss': 0.0736, 'target_std': 0.3547, 'pred_std': 0.0126, 'lr': 0.000452, 'sec': 6, 'ms_per_step': 151}
+{'step': 60, 'loss': 0.0287, 'target_std': 0.2328, 'pred_std': 0.01, 'lr': 0.000397, 'sec': 9, 'ms_per_step': 150}
+{'step': 80, 'loss': 0.0161, 'target_std': 0.1756, 'pred_std': 0.0093, 'lr': 0.000327, 'sec': 12, 'ms_per_step': 148}
+{'step': 100, 'loss': 0.0112, 'target_std': 0.1464, 'pred_std': 0.0081, 'lr': 0.00025, 'sec': 15, 'ms_per_step': 146}
+{'step': 120, 'loss': 0.0088, 'target_std': 0.1301, 'pred_std': 0.0083, 'lr': 0.000173, 'sec': 17, 'ms_per_step': 146}
+{'step': 140, 'loss': 0.007, 'target_std': 0.1163, 'pred_std': 0.008, 'lr': 0.000103, 'sec': 21, 'ms_per_step': 147}
+{'step': 160, 'loss': 0.0067, 'target_std': 0.1135, 'pred_std': 0.0081, 'lr': 4.8e-05, 'sec': 24, 'ms_per_step': 147}
+{'step': 180, 'loss': 0.0059, 'target_std': 0.1075, 'pred_std': 0.0083, 'lr': 1.2e-05, 'sec': 26, 'ms_per_step': 147}
+{'step': 200, 'loss': 0.006, 'target_std': 0.1084, 'pred_std': 0.0091, 'lr': 0.0, 'sec': 30, 'ms_per_step': 149, 'val_loss': 0.006, 'val_target_std': 0.1078, 'val_pred_std': 0.0087}
+done in 31s -> runs/smoke_jepa/encoder.pt

@@ -1,0 +1,41 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+W1107 10:34:09.526000 21895 .venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 22689.80it/s]
+trainable params: 20,766,720 || all params: 2,635,108,608 || trainable%: 0.7881
+device mps  train pairs 1000  mode sft  lang Assamese
+{'step': 1, 'epoch': 0, 'lm': 2.4342, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 1.6000000000000003e-05, 'sec': 4, 'sec_per_step': 3.5, 'mem_GB': 14.3}
+{'step': 2, 'epoch': 0, 'lm': 1.9679, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 2.4e-05, 'sec': 7, 'sec_per_step': 3.3, 'mem_GB': 14.7}
+{'step': 3, 'epoch': 0, 'lm': 2.1944, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 3.2000000000000005e-05, 'sec': 9, 'sec_per_step': 3.1, 'mem_GB': 14.6}
+{'step': 4, 'epoch': 0, 'lm': 2.0864, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 4e-05, 'sec': 13, 'sec_per_step': 3.3, 'mem_GB': 14.3}
+{'step': 5, 'epoch': 0, 'lm': 2.3571, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 4.8e-05, 'sec': 16, 'sec_per_step': 3.3, 'mem_GB': 14.6}
+{'step': 6, 'epoch': 0, 'lm': 2.1071, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 5.6000000000000006e-05, 'sec': 21, 'sec_per_step': 3.5, 'mem_GB': 14.3}
+{'step': 7, 'epoch': 0, 'lm': 2.2272, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 6.400000000000001e-05, 'sec': 24, 'sec_per_step': 3.4, 'mem_GB': 14.6}
+{'step': 8, 'epoch': 0, 'lm': 2.1221, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 7.2e-05, 'sec': 27, 'sec_per_step': 3.3, 'mem_GB': 14.6}
+{'step': 9, 'epoch': 0, 'lm': 2.0431, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 8e-05, 'sec': 30, 'sec_per_step': 3.4, 'mem_GB': 14.2}
+{'step': 10, 'epoch': 0, 'lm': 1.5754, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 8.800000000000001e-05, 'sec': 35, 'sec_per_step': 3.5, 'mem_GB': 14.4}
+{'step': 20, 'epoch': 0, 'lm': 1.7128, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.000168, 'sec': 72, 'sec_per_step': 3.6, 'mem_GB': 14.6}
+{'step': 40, 'epoch': 0, 'lm': 1.595, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.0001936842105263158, 'sec': 149, 'sec_per_step': 3.7, 'mem_GB': 12.6}
+{'step': 60, 'epoch': 0, 'lm': 1.4562, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.00018526315789473685, 'sec': 223, 'sec_per_step': 3.7, 'mem_GB': 13.1}
+{'step': 80, 'epoch': 0, 'lm': 1.5058, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.0001768421052631579, 'sec': 297, 'sec_per_step': 3.7, 'mem_GB': 13.2}
+{'step': 100, 'epoch': 0, 'lm': 1.2232, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.00016842105263157895, 'sec': 372, 'sec_per_step': 3.7, 'mem_GB': 15.3}
+{'step': 120, 'epoch': 0, 'lm': 1.5422, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.00016, 'sec': 441, 'sec_per_step': 3.7, 'mem_GB': 14.2}
+{'step': 140, 'epoch': 1, 'lm': 0.7158, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.00015157894736842108, 'sec': 513, 'sec_per_step': 3.7, 'mem_GB': 13.1}
+{'step': 160, 'epoch': 1, 'lm': 1.0022, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.0001431578947368421, 'sec': 586, 'sec_per_step': 3.7, 'mem_GB': 13.6}
+{'step': 180, 'epoch': 1, 'lm': 1.0181, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.00013473684210526317, 'sec': 654, 'sec_per_step': 3.6, 'mem_GB': 14.3}
+{'step': 200, 'epoch': 1, 'lm': 0.954, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.0001263157894736842, 'sec': 727, 'sec_per_step': 3.6, 'mem_GB': 14.6}
+{'step': 220, 'epoch': 1, 'lm': 0.8904, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.00011789473684210525, 'sec': 803, 'sec_per_step': 3.7, 'mem_GB': 14.6}
+{'step': 240, 'epoch': 1, 'lm': 0.7569, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.00010947368421052633, 'sec': 885, 'sec_per_step': 3.7, 'mem_GB': 14.3}
+{'step': 260, 'epoch': 2, 'lm': 0.5621, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.00010105263157894738, 'sec': 966, 'sec_per_step': 3.7, 'mem_GB': 12.3}
+{'step': 280, 'epoch': 2, 'lm': 0.5272, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 9.263157894736843e-05, 'sec': 1043, 'sec_per_step': 3.7, 'mem_GB': 13.2}
+{'step': 300, 'epoch': 2, 'lm': 0.5419, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 8.421052631578948e-05, 'sec': 1112, 'sec_per_step': 3.7, 'mem_GB': 14.6}
+{'step': 320, 'epoch': 2, 'lm': 0.4854, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 7.578947368421054e-05, 'sec': 1188, 'sec_per_step': 3.7, 'mem_GB': 15.6}
+{'step': 340, 'epoch': 2, 'lm': 0.5305, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 6.736842105263159e-05, 'sec': 1265, 'sec_per_step': 3.7, 'mem_GB': 14.3}
+{'step': 360, 'epoch': 2, 'lm': 0.3819, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 5.894736842105263e-05, 'sec': 1339, 'sec_per_step': 3.7, 'mem_GB': 12.3}
+{'step': 380, 'epoch': 3, 'lm': 0.1904, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 5.052631578947369e-05, 'sec': 1411, 'sec_per_step': 3.7, 'mem_GB': 13.2}
+{'step': 400, 'epoch': 3, 'lm': 0.1702, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 4.210526315789474e-05, 'sec': 1486, 'sec_per_step': 3.7, 'mem_GB': 13.6}
+{'step': 420, 'epoch': 3, 'lm': 0.0913, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 3.368421052631579e-05, 'sec': 1561, 'sec_per_step': 3.7, 'mem_GB': 14.1}
+{'step': 440, 'epoch': 3, 'lm': 0.1689, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 2.5263157894736845e-05, 'sec': 1639, 'sec_per_step': 3.7, 'mem_GB': 14.1}
+{'step': 460, 'epoch': 3, 'lm': 0.2069, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 1.6842105263157896e-05, 'sec': 1714, 'sec_per_step': 3.7, 'mem_GB': 15.3}
+{'step': 480, 'epoch': 3, 'lm': 0.1881, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 8.421052631578948e-06, 'sec': 1796, 'sec_per_step': 3.7, 'mem_GB': 12.2}
+{'step': 500, 'epoch': 3, 'lm': 0.1288, 'jepa': 0.0, 'cos': 0.0, 'cos_wrong_pair': 0.0, 'match_acc': 0.0, 'lr': 0.0, 'sec': 1872, 'sec_per_step': 3.7, 'mem_GB': 13.2}
+done in 1873s -> runs/asm_1000_sft_s1/adapter

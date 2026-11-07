@@ -1,0 +1,10 @@
+smoke_jepareg: 1154 reviews -> features (1154, 256)
+    k16: accuracy 52.8% ± 0.6
+    k64: accuracy 55.0% ± 1.1
+   k256: accuracy 57.1% ± 0.4
+    all: accuracy 59.3% ± 1.6
+smoke_random: 1154 reviews -> features (1154, 256)
+    k16: accuracy 52.7% ± 1.8
+    k64: accuracy 56.5% ± 3.4
+   k256: accuracy 59.8% ± 0.5
+    all: accuracy 64.3% ± 2.6

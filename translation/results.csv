@@ -1,0 +1,10 @@
+name,lang,n_test,chrf++
+asm_zeroshot,asm_Beng,300,13.5
+asm_1000_sft_s1,asm_Beng,300,22.58
+asm_1000_jepa_s1,asm_Beng,300,23.3
+asm_1000_sft_s2,asm_Beng,300,22.67
+asm_1000_jepa_s2,asm_Beng,300,22.78
+asm_1000_jepa-plain-k1-l1_s1,asm_Beng,300,22.5
+asm_1000_jepa-plain-k0-l4_s1,asm_Beng,300,22.57
+asm_1000_jepa-centered-k0-l1_s1,asm_Beng,300,21.39
+asm_1000_jepa-contrastive-k0-l0.5_s1,asm_Beng,300,21.81

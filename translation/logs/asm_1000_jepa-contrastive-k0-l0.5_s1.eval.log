@@ -1,0 +1,32 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+W1107 18:00:09.717000 28971 .venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 6396.19it/s]
+  16/300  (13s)
+  32/300  (26s)
+  48/300  (39s)
+  64/300  (53s)
+  80/300  (68s)
+  96/300  (82s)
+  112/300  (96s)
+  128/300  (110s)
+  144/300  (124s)
+  160/300  (137s)
+  176/300  (151s)
+  192/300  (165s)
+  208/300  (179s)
+  224/300  (193s)
+  240/300  (207s)
+  256/300  (223s)
+  272/300  (236s)
+  288/300  (250s)
+  300/300  (262s)
+asm_1000_jepa-contrastive-k0-l0.5_s1: chrF++ = 21.81 on 300 sentences
+  EN : An appearance is a bunch of attributes related to the service person, like their shoes, clothes, tie 
+  REF: এটা বাহ্যিক ৰূপ হৈছে সশস্ত্র বাহিনীৰ জোৱানগৰাকীৰ সৈতে জড়িত কেইবাটাও বৈশিষ্ট, যেনে তেওঁৰ জোতা, কাপোৰ 
+  HYP: an appearance হৈছে সেৱা কৰা ব্যক্তিৰ সৈতে সম্বন্ধীয় বহুবোৰ বিকল্প, যেনে তেওঁলোকৰ জোতা, পোছ, বস্ত্ৰ, 
+  EN : Ajanta, located in the Aurangabad District of Maharashtra has twenty-nine caitya and vihara caves de 
+  REF: মহাৰাষ্ট্রৰ ঔৰঙ্গাবাদ জিলাত অৱস্থিত অজন্তাত খ্রীষ্টপূর্ব প্রথম শতিকাৰ পৰা খ্রীষ্টাব্দ পঞ্চম শতিকাৰ ভ 
+  HYP: অৰুণাভাদ জিলাত অৱস্থিত আজন্তাই প্ৰথম শতিকা খ্ৰী. খ to পঞ্চম শতিকা খ্ৰী. খ. তালিকাভুক্ত মূৰ্ত্তি আৰু 
+  EN : Body colour gets merged with the outer line, creating the effect of volume. 
+  REF: দেহৰ ৰং বাহিৰত থকা ৰেখাডালৰ লগত মিলি যায়, যিয়ে ভলিউমৰ ইফেক্টটো সৃষ্টি কৰে। 
+  HYP: বডিচেলৰ ৰং বাহিৰৰ লাইনৰ সৈতে মিলাই অহাৰ ফলত ভৌমিক ভাৱ পোৱা যায়।

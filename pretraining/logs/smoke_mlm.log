@@ -1,0 +1,14 @@
+device mps  method mlm  vocab 8000  train tokens 39,600,000  epochs over data ~0.0
+trainable parameters 6.89M
+{'step': 1, 'loss': 9.0338, 'acc': 0.0, 'lr': 5e-05, 'sec': 0, 'ms_per_step': 252}
+{'step': 20, 'loss': 8.3701, 'acc': 0.0096, 'lr': 0.000488, 'sec': 2, 'ms_per_step': 122}
+{'step': 40, 'loss': 8.008, 'acc': 0.0115, 'lr': 0.000452, 'sec': 5, 'ms_per_step': 122}
+{'step': 60, 'loss': 8.0087, 'acc': 0.0112, 'lr': 0.000397, 'sec': 7, 'ms_per_step': 121}
+{'step': 80, 'loss': 8.0128, 'acc': 0.0079, 'lr': 0.000327, 'sec': 10, 'ms_per_step': 120}
+{'step': 100, 'loss': 7.9617, 'acc': 0.0106, 'lr': 0.00025, 'sec': 12, 'ms_per_step': 119}
+{'step': 120, 'loss': 7.9954, 'acc': 0.0073, 'lr': 0.000173, 'sec': 14, 'ms_per_step': 119}
+{'step': 140, 'loss': 7.973, 'acc': 0.0084, 'lr': 0.000103, 'sec': 17, 'ms_per_step': 119}
+{'step': 160, 'loss': 7.9789, 'acc': 0.0101, 'lr': 4.8e-05, 'sec': 19, 'ms_per_step': 118}
+{'step': 180, 'loss': 7.9662, 'acc': 0.0075, 'lr': 1.2e-05, 'sec': 21, 'ms_per_step': 118}
+{'step': 200, 'loss': 7.9039, 'acc': 0.0087, 'lr': 0.0, 'sec': 24, 'ms_per_step': 119, 'val_loss': 7.9366, 'val_acc': 0.0089}
+done in 24s -> runs/smoke_mlm/encoder.pt

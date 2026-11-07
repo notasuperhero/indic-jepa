@@ -1,0 +1,32 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+W1107 11:05:28.189000 22146 .venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 6121.15it/s]
+  16/300  (13s)
+  32/300  (28s)
+  48/300  (41s)
+  64/300  (55s)
+  80/300  (70s)
+  96/300  (85s)
+  112/300  (98s)
+  128/300  (112s)
+  144/300  (126s)
+  160/300  (140s)
+  176/300  (153s)
+  192/300  (166s)
+  208/300  (180s)
+  224/300  (195s)
+  240/300  (208s)
+  256/300  (223s)
+  272/300  (237s)
+  288/300  (250s)
+  300/300  (263s)
+asm_1000_sft_s1: chrF++ = 22.58 on 300 sentences
+  EN : An appearance is a bunch of attributes related to the service person, like their shoes, clothes, tie 
+  REF: এটা বাহ্যিক ৰূপ হৈছে সশস্ত্র বাহিনীৰ জোৱানগৰাকীৰ সৈতে জড়িত কেইবাটাও বৈশিষ্ট, যেনে তেওঁৰ জোতা, কাপোৰ 
+  HYP: এটা উপস্থাপনা হৈছে সেৱা কৰোৱা ব্যক্তিৰ সৈতে জড়িত বন্ধনীয় বিকল্প, যেনে তেওঁলোকৰ জোতা, শাড়ী, বন্দনা
+  EN : Ajanta, located in the Aurangabad District of Maharashtra has twenty-nine caitya and vihara caves de 
+  REF: মহাৰাষ্ট্রৰ ঔৰঙ্গাবাদ জিলাত অৱস্থিত অজন্তাত খ্রীষ্টপূর্ব প্রথম শতিকাৰ পৰা খ্রীষ্টাব্দ পঞ্চম শতিকাৰ ভ 
+  HYP: মহাৰাষ্ট্ৰৰ অ ponúৰাবাদ জিলাত অৱস্থিত আজন্তাই প্ৰাচীন শৈলীৰ মূৰ্ত্তি আৰু প্ৰদৰ্শনৰে সজোৱা ২৯টা কৈটা 
+  EN : Body colour gets merged with the outer line, creating the effect of volume. 
+  REF: দেহৰ ৰং বাহিৰত থকা ৰেখাডালৰ লগত মিলি যায়, যিয়ে ভলিউমৰ ইফেক্টটো সৃষ্টি কৰে। 
+  HYP: শৰীৰ ৰং বাহিৰৰ লাইনৰ সৈতে মিলাই অহাৰ পৰা আৰম্ভ হৈ আৰম্ভ হৈ আছে আৰু ভাৰ্চুৱেল অনুপস্থিতি সৃষ্টি কৰিছে

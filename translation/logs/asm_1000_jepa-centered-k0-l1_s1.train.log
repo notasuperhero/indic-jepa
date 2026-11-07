@@ -1,0 +1,65 @@
+Could not reach the Hub ([Errno 8] nodename nor servname provided, or not known). Using cached commit hash for 'google/gemma-2-2b-it'.
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Could not reach the Hub ([Errno 8] nodename nor servname provided, or not known). Using cached commit hash for 'google/gemma-2-2b-it'.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+W1107 16:17:09.400000 24775 .venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 21173.33it/s]
+trainable params: 20,766,720 || all params: 2,635,108,608 || trainable%: 0.7881
+device mps  train pairs 1000  mode jepa  lang Assamese  variant centered  lbd 1.0  pred_k 0
+{'step': 1, 'epoch': 0, 'lm': 2.4342, 'jepa': 1.5367, 'cos': 0.7918, 'cos_wrong_pair': 0.7935, 'match_acc': 0.125, 'lr': 1.6000000000000003e-05, 'sec': 5, 'sec_per_step': 5.4, 'mem_GB': 14.2}
+{'step': 2, 'epoch': 0, 'lm': 1.9669, 'jepa': 1.4817, 'cos': 0.8552, 'cos_wrong_pair': 0.8506, 'match_acc': 0.125, 'lr': 2.4e-05, 'sec': 10, 'sec_per_step': 5.0, 'mem_GB': 14.6}
+{'step': 3, 'epoch': 0, 'lm': 2.1979, 'jepa': 1.5694, 'cos': 0.8677, 'cos_wrong_pair': 0.8597, 'match_acc': 0.375, 'lr': 3.2000000000000005e-05, 'sec': 14, 'sec_per_step': 4.8, 'mem_GB': 14.6}
+{'step': 4, 'epoch': 0, 'lm': 2.1035, 'jepa': 1.4716, 'cos': 0.8348, 'cos_wrong_pair': 0.8169, 'match_acc': 0.25, 'lr': 4e-05, 'sec': 20, 'sec_per_step': 5.0, 'mem_GB': 14.2}
+{'step': 5, 'epoch': 0, 'lm': 2.3887, 'jepa': 1.3633, 'cos': 0.8829, 'cos_wrong_pair': 0.8717, 'match_acc': 0.125, 'lr': 4.8e-05, 'sec': 24, 'sec_per_step': 4.9, 'mem_GB': 14.6}
+{'step': 6, 'epoch': 0, 'lm': 2.1677, 'jepa': 1.3708, 'cos': 0.8417, 'cos_wrong_pair': 0.8356, 'match_acc': 0.125, 'lr': 5.6000000000000006e-05, 'sec': 31, 'sec_per_step': 5.1, 'mem_GB': 14.3}
+{'step': 7, 'epoch': 0, 'lm': 2.2558, 'jepa': 1.1947, 'cos': 0.9011, 'cos_wrong_pair': 0.8909, 'match_acc': 0.375, 'lr': 6.400000000000001e-05, 'sec': 35, 'sec_per_step': 4.9, 'mem_GB': 14.6}
+{'step': 8, 'epoch': 0, 'lm': 2.1911, 'jepa': 1.2497, 'cos': 0.8431, 'cos_wrong_pair': 0.8399, 'match_acc': 0.25, 'lr': 7.2e-05, 'sec': 39, 'sec_per_step': 4.9, 'mem_GB': 15.6}
+{'step': 9, 'epoch': 0, 'lm': 2.1379, 'jepa': 1.2606, 'cos': 0.8821, 'cos_wrong_pair': 0.868, 'match_acc': 0.125, 'lr': 8e-05, 'sec': 45, 'sec_per_step': 5.0, 'mem_GB': 15.2}
+{'step': 10, 'epoch': 0, 'lm': 1.6487, 'jepa': 1.1567, 'cos': 0.8869, 'cos_wrong_pair': 0.878, 'match_acc': 0.375, 'lr': 8.800000000000001e-05, 'sec': 52, 'sec_per_step': 5.2, 'mem_GB': 15.3}
+{'step': 20, 'epoch': 0, 'lm': 1.8078, 'jepa': 0.859, 'cos': 0.9125, 'cos_wrong_pair': 0.877, 'match_acc': 0.625, 'lr': 0.000168, 'sec': 103, 'sec_per_step': 5.2, 'mem_GB': 15.6}
+{'step': 40, 'epoch': 0, 'lm': 1.6966, 'jepa': 0.3574, 'cos': 0.9547, 'cos_wrong_pair': 0.7727, 'match_acc': 0.625, 'lr': 0.0001936842105263158, 'sec': 212, 'sec_per_step': 5.3, 'mem_GB': 15.6}
+{'step': 60, 'epoch': 0, 'lm': 1.5277, 'jepa': 0.5648, 'cos': 0.909, 'cos_wrong_pair': 0.7265, 'match_acc': 0.5, 'lr': 0.00018526315789473685, 'sec': 337, 'sec_per_step': 5.6, 'mem_GB': 16.1}
+{'step': 80, 'epoch': 0, 'lm': 1.5851, 'jepa': 0.1486, 'cos': 0.9761, 'cos_wrong_pair': 0.7246, 'match_acc': 0.875, 'lr': 0.0001768421052631579, 'sec': 468, 'sec_per_step': 5.8, 'mem_GB': 17.2}
+{'step': 100, 'epoch': 0, 'lm': 1.3311, 'jepa': 0.1386, 'cos': 0.985, 'cos_wrong_pair': 0.8015, 'match_acc': 0.875, 'lr': 0.00016842105263157895, 'sec': 598, 'sec_per_step': 6.0, 'mem_GB': 16.3}
+{'step': 120, 'epoch': 0, 'lm': 1.657, 'jepa': 0.3311, 'cos': 0.9612, 'cos_wrong_pair': 0.9188, 'match_acc': 0.5, 'lr': 0.00016, 'sec': 717, 'sec_per_step': 6.0, 'mem_GB': 14.2}
+{'step': 140, 'epoch': 1, 'lm': 0.963, 'jepa': 0.1286, 'cos': 0.9777, 'cos_wrong_pair': 0.5919, 'match_acc': 0.75, 'lr': 0.00015157894736842108, 'sec': 837, 'sec_per_step': 6.0, 'mem_GB': 16.1}
+{'step': 160, 'epoch': 1, 'lm': 1.2621, 'jepa': 0.0387, 'cos': 0.989, 'cos_wrong_pair': 0.5453, 'match_acc': 1.0, 'lr': 0.0001431578947368421, 'sec': 964, 'sec_per_step': 6.0, 'mem_GB': 16.6}
+{'step': 180, 'epoch': 1, 'lm': 1.2922, 'jepa': 0.25, 'cos': 0.9358, 'cos_wrong_pair': 0.4095, 'match_acc': 0.625, 'lr': 0.00013473684210526317, 'sec': 1072, 'sec_per_step': 6.0, 'mem_GB': 17.2}
+{'step': 200, 'epoch': 1, 'lm': 1.0827, 'jepa': 0.1148, 'cos': 0.973, 'cos_wrong_pair': 0.6988, 'match_acc': 0.75, 'lr': 0.0001263157894736842, 'sec': 1183, 'sec_per_step': 5.9, 'mem_GB': 17.6}
+{'step': 220, 'epoch': 1, 'lm': 1.1125, 'jepa': 0.3101, 'cos': 0.8631, 'cos_wrong_pair': 0.5798, 'match_acc': 0.875, 'lr': 0.00011789473684210525, 'sec': 1302, 'sec_per_step': 5.9, 'mem_GB': 16.6}
+{'step': 240, 'epoch': 1, 'lm': 0.9155, 'jepa': 0.0123, 'cos': 0.9904, 'cos_wrong_pair': 0.374, 'match_acc': 1.0, 'lr': 0.00010947368421052633, 'sec': 1420, 'sec_per_step': 5.9, 'mem_GB': 15.3}
+{'step': 260, 'epoch': 2, 'lm': 0.7707, 'jepa': 0.0084, 'cos': 0.9935, 'cos_wrong_pair': 0.2899, 'match_acc': 1.0, 'lr': 0.00010105263157894738, 'sec': 1540, 'sec_per_step': 5.9, 'mem_GB': 16.3}
+{'step': 280, 'epoch': 2, 'lm': 0.7582, 'jepa': 0.0106, 'cos': 0.9957, 'cos_wrong_pair': 0.3521, 'match_acc': 0.875, 'lr': 9.263157894736843e-05, 'sec': 1657, 'sec_per_step': 5.9, 'mem_GB': 14.1}
+{'step': 300, 'epoch': 2, 'lm': 0.7938, 'jepa': 0.0178, 'cos': 0.9937, 'cos_wrong_pair': 0.3161, 'match_acc': 0.75, 'lr': 8.421052631578948e-05, 'sec': 1770, 'sec_per_step': 5.9, 'mem_GB': 16.6}
+{'step': 320, 'epoch': 2, 'lm': 0.7226, 'jepa': 0.2393, 'cos': 0.9118, 'cos_wrong_pair': 0.1384, 'match_acc': 0.75, 'lr': 7.578947368421054e-05, 'sec': 1885, 'sec_per_step': 5.9, 'mem_GB': 17.6}
+{'step': 340, 'epoch': 2, 'lm': 0.6781, 'jepa': 0.0217, 'cos': 0.9948, 'cos_wrong_pair': 0.4186, 'match_acc': 0.875, 'lr': 6.736842105263159e-05, 'sec': 2002, 'sec_per_step': 5.9, 'mem_GB': 16.3}
+{'step': 360, 'epoch': 2, 'lm': 0.5822, 'jepa': 0.013, 'cos': 0.9925, 'cos_wrong_pair': 0.1849, 'match_acc': 0.875, 'lr': 5.894736842105263e-05, 'sec': 2119, 'sec_per_step': 5.9, 'mem_GB': 14.3}
+{'step': 380, 'epoch': 3, 'lm': 0.2983, 'jepa': 0.042, 'cos': 0.9882, 'cos_wrong_pair': 0.4806, 'match_acc': 1.0, 'lr': 5.052631578947369e-05, 'sec': 2238, 'sec_per_step': 5.9, 'mem_GB': 15.1}
+{'step': 400, 'epoch': 3, 'lm': 0.3828, 'jepa': 0.378, 'cos': 0.8464, 'cos_wrong_pair': 0.506, 'match_acc': 0.75, 'lr': 4.210526315789474e-05, 'sec': 2356, 'sec_per_step': 5.9, 'mem_GB': 15.6}
+{'step': 420, 'epoch': 3, 'lm': 0.2334, 'jepa': 0.0736, 'cos': 0.9799, 'cos_wrong_pair': 0.422, 'match_acc': 0.875, 'lr': 3.368421052631579e-05, 'sec': 2474, 'sec_per_step': 5.9, 'mem_GB': 14.1}
+{'step': 440, 'epoch': 3, 'lm': 0.3279, 'jepa': 0.1926, 'cos': 0.93, 'cos_wrong_pair': 0.3423, 'match_acc': 0.75, 'lr': 2.5263157894736845e-05, 'sec': 2591, 'sec_per_step': 5.9, 'mem_GB': 15.1}
+{'step': 460, 'epoch': 3, 'lm': 0.3939, 'jepa': 0.0952, 'cos': 0.9911, 'cos_wrong_pair': 0.582, 'match_acc': 0.75, 'lr': 1.6842105263157896e-05, 'sec': 2708, 'sec_per_step': 5.9, 'mem_GB': 13.3}
+{'step': 480, 'epoch': 3, 'lm': 0.369, 'jepa': 0.0168, 'cos': 0.9944, 'cos_wrong_pair': 0.4316, 'match_acc': 0.875, 'lr': 8.421052631578948e-06, 'sec': 2827, 'sec_per_step': 5.9, 'mem_GB': 15.2}
+{'step': 500, 'epoch': 3, 'lm': 0.2392, 'jepa': 0.0081, 'cos': 0.9945, 'cos_wrong_pair': 0.3577, 'match_acc': 1.0, 'lr': 0.0, 'sec': 2941, 'sec_per_step': 5.9, 'mem_GB': 16.2}
+done in 2942s -> runs/asm_1000_jepa-centered-k0-l1_s1/adapter

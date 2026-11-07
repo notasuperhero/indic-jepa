@@ -1,0 +1,18 @@
+{
+  "method": "jepa",
+  "out": "runs/jepareg_s1",
+  "steps": 20000,
+  "bs": 64,
+  "seq": 128,
+  "lr": 0.0005,
+  "wd": 0.05,
+  "warmup": 1000,
+  "ema": 0.996,
+  "reg": 1.0,
+  "d": 256,
+  "layers": 6,
+  "seed": 1,
+  "device": "",
+  "log_every": 100,
+  "save_every": 5000
+}

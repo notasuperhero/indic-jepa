@@ -1,0 +1,46 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+W1107 14:16:42.018000 23602 .venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 21796.46it/s]
+trainable params: 20,766,720 || all params: 2,635,108,608 || trainable%: 0.7881
+predictor tokens: 1 x id 7 (<unused0>)
+device mps  train pairs 1000  mode jepa  lang Assamese  variant plain  lbd 1.0  pred_k 1
+{'step': 1, 'epoch': 0, 'lm': 2.4342, 'jepa': 0.819, 'cos': 0.181, 'cos_wrong_pair': 0.1862, 'match_acc': 0.125, 'lr': 1.6000000000000003e-05, 'sec': 7, 'sec_per_step': 7.3, 'mem_GB': 14.3}
+{'step': 2, 'epoch': 0, 'lm': 1.9668, 'jepa': 0.7854, 'cos': 0.2146, 'cos_wrong_pair': 0.2144, 'match_acc': 0.125, 'lr': 2.4e-05, 'sec': 13, 'sec_per_step': 6.5, 'mem_GB': 14.7}
+{'step': 3, 'epoch': 0, 'lm': 2.1959, 'jepa': 0.7593, 'cos': 0.2407, 'cos_wrong_pair': 0.2402, 'match_acc': 0.125, 'lr': 3.2000000000000005e-05, 'sec': 18, 'sec_per_step': 6.1, 'mem_GB': 14.7}
+{'step': 4, 'epoch': 0, 'lm': 2.0952, 'jepa': 0.6444, 'cos': 0.3556, 'cos_wrong_pair': 0.3564, 'match_acc': 0.125, 'lr': 4e-05, 'sec': 25, 'sec_per_step': 6.3, 'mem_GB': 15.3}
+{'step': 5, 'epoch': 0, 'lm': 2.3887, 'jepa': 0.5281, 'cos': 0.4719, 'cos_wrong_pair': 0.4708, 'match_acc': 0.125, 'lr': 4.8e-05, 'sec': 31, 'sec_per_step': 6.1, 'mem_GB': 15.6}
+{'step': 6, 'epoch': 0, 'lm': 2.1312, 'jepa': 0.1834, 'cos': 0.8166, 'cos_wrong_pair': 0.8113, 'match_acc': 0.25, 'lr': 5.6000000000000006e-05, 'sec': 38, 'sec_per_step': 6.3, 'mem_GB': 15.3}
+{'step': 7, 'epoch': 0, 'lm': 2.2619, 'jepa': 0.0743, 'cos': 0.9257, 'cos_wrong_pair': 0.9179, 'match_acc': 0.25, 'lr': 6.400000000000001e-05, 'sec': 43, 'sec_per_step': 6.1, 'mem_GB': 15.6}
+{'step': 8, 'epoch': 0, 'lm': 2.1905, 'jepa': 0.0859, 'cos': 0.9141, 'cos_wrong_pair': 0.9113, 'match_acc': 0.25, 'lr': 7.2e-05, 'sec': 48, 'sec_per_step': 6.0, 'mem_GB': 16.6}
+{'step': 9, 'epoch': 0, 'lm': 2.0766, 'jepa': 0.0816, 'cos': 0.9184, 'cos_wrong_pair': 0.9112, 'match_acc': 0.375, 'lr': 8e-05, 'sec': 55, 'sec_per_step': 6.1, 'mem_GB': 16.2}
+{'step': 10, 'epoch': 0, 'lm': 1.6117, 'jepa': 0.1017, 'cos': 0.8983, 'cos_wrong_pair': 0.8966, 'match_acc': 0.5, 'lr': 8.800000000000001e-05, 'sec': 64, 'sec_per_step': 6.4, 'mem_GB': 16.3}
+{'step': 20, 'epoch': 0, 'lm': 1.7113, 'jepa': 0.0198, 'cos': 0.9802, 'cos_wrong_pair': 0.9788, 'match_acc': 0.125, 'lr': 0.000168, 'sec': 126, 'sec_per_step': 6.3, 'mem_GB': 16.7}
+{'step': 40, 'epoch': 0, 'lm': 1.598, 'jepa': 0.0369, 'cos': 0.9631, 'cos_wrong_pair': 0.9615, 'match_acc': 0.375, 'lr': 0.0001936842105263158, 'sec': 260, 'sec_per_step': 6.5, 'mem_GB': 16.6}
+{'step': 60, 'epoch': 0, 'lm': 1.4533, 'jepa': 0.0166, 'cos': 0.9834, 'cos_wrong_pair': 0.9827, 'match_acc': 0.125, 'lr': 0.00018526315789473685, 'sec': 415, 'sec_per_step': 6.9, 'mem_GB': 15.2}
+{'step': 80, 'epoch': 0, 'lm': 1.5188, 'jepa': 0.0066, 'cos': 0.9934, 'cos_wrong_pair': 0.9927, 'match_acc': 0.5, 'lr': 0.0001768421052631579, 'sec': 562, 'sec_per_step': 7.0, 'mem_GB': 17.2}
+{'step': 100, 'epoch': 0, 'lm': 1.2313, 'jepa': 0.0026, 'cos': 0.9974, 'cos_wrong_pair': 0.9971, 'match_acc': 0.375, 'lr': 0.00016842105263157895, 'sec': 720, 'sec_per_step': 7.2, 'mem_GB': 16.3}
+{'step': 120, 'epoch': 0, 'lm': 1.5333, 'jepa': 0.0034, 'cos': 0.9966, 'cos_wrong_pair': 0.9963, 'match_acc': 0.0, 'lr': 0.00016, 'sec': 860, 'sec_per_step': 7.2, 'mem_GB': 16.3}
+{'step': 140, 'epoch': 1, 'lm': 0.6995, 'jepa': 0.0022, 'cos': 0.9978, 'cos_wrong_pair': 0.9974, 'match_acc': 0.375, 'lr': 0.00015157894736842108, 'sec': 1008, 'sec_per_step': 7.2, 'mem_GB': 17.2}
+{'step': 160, 'epoch': 1, 'lm': 1.0284, 'jepa': 0.002, 'cos': 0.998, 'cos_wrong_pair': 0.9975, 'match_acc': 0.375, 'lr': 0.0001431578947368421, 'sec': 1164, 'sec_per_step': 7.3, 'mem_GB': 17.6}
+{'step': 180, 'epoch': 1, 'lm': 1.0181, 'jepa': 0.0017, 'cos': 0.9983, 'cos_wrong_pair': 0.9982, 'match_acc': 0.25, 'lr': 0.00013473684210526317, 'sec': 1308, 'sec_per_step': 7.3, 'mem_GB': 17.3}
+{'step': 200, 'epoch': 1, 'lm': 0.9585, 'jepa': 0.0014, 'cos': 0.9986, 'cos_wrong_pair': 0.9983, 'match_acc': 0.25, 'lr': 0.0001263157894736842, 'sec': 1450, 'sec_per_step': 7.2, 'mem_GB': 17.6}
+{'step': 220, 'epoch': 1, 'lm': 0.888, 'jepa': 0.0014, 'cos': 0.9986, 'cos_wrong_pair': 0.9982, 'match_acc': 0.375, 'lr': 0.00011789473684210525, 'sec': 1594, 'sec_per_step': 7.2, 'mem_GB': 14.7}
+{'step': 240, 'epoch': 1, 'lm': 0.7611, 'jepa': 0.0019, 'cos': 0.9981, 'cos_wrong_pair': 0.9979, 'match_acc': 0.25, 'lr': 0.00010947368421052633, 'sec': 1747, 'sec_per_step': 7.3, 'mem_GB': 16.4}
+{'step': 260, 'epoch': 2, 'lm': 0.6089, 'jepa': 0.0027, 'cos': 0.9973, 'cos_wrong_pair': 0.9969, 'match_acc': 0.375, 'lr': 0.00010105263157894738, 'sec': 1899, 'sec_per_step': 7.3, 'mem_GB': 16.4}
+{'step': 280, 'epoch': 2, 'lm': 0.5395, 'jepa': 0.0012, 'cos': 0.9988, 'cos_wrong_pair': 0.9986, 'match_acc': 0.375, 'lr': 9.263157894736843e-05, 'sec': 2051, 'sec_per_step': 7.3, 'mem_GB': 15.2}
+{'step': 300, 'epoch': 2, 'lm': 0.5589, 'jepa': 0.0011, 'cos': 0.9989, 'cos_wrong_pair': 0.9987, 'match_acc': 0.5, 'lr': 8.421052631578948e-05, 'sec': 2203, 'sec_per_step': 7.3, 'mem_GB': 15.6}
+{'step': 320, 'epoch': 2, 'lm': 0.4874, 'jepa': 0.0011, 'cos': 0.9989, 'cos_wrong_pair': 0.9988, 'match_acc': 0.125, 'lr': 7.578947368421054e-05, 'sec': 2356, 'sec_per_step': 7.4, 'mem_GB': 16.6}
+{'step': 340, 'epoch': 2, 'lm': 0.5364, 'jepa': 0.0011, 'cos': 0.9989, 'cos_wrong_pair': 0.9987, 'match_acc': 0.375, 'lr': 6.736842105263159e-05, 'sec': 2507, 'sec_per_step': 7.4, 'mem_GB': 14.3}
+{'step': 360, 'epoch': 2, 'lm': 0.3954, 'jepa': 0.0011, 'cos': 0.9989, 'cos_wrong_pair': 0.9986, 'match_acc': 0.25, 'lr': 5.894736842105263e-05, 'sec': 2659, 'sec_per_step': 7.4, 'mem_GB': 16.3}
+{'step': 380, 'epoch': 3, 'lm': 0.1718, 'jepa': 0.0015, 'cos': 0.9985, 'cos_wrong_pair': 0.9984, 'match_acc': 0.25, 'lr': 5.052631578947369e-05, 'sec': 2807, 'sec_per_step': 7.4, 'mem_GB': 17.2}
+{'step': 400, 'epoch': 3, 'lm': 0.1491, 'jepa': 0.0018, 'cos': 0.9982, 'cos_wrong_pair': 0.998, 'match_acc': 0.375, 'lr': 4.210526315789474e-05, 'sec': 2956, 'sec_per_step': 7.4, 'mem_GB': 16.7}
+{'step': 420, 'epoch': 3, 'lm': 0.0997, 'jepa': 0.0024, 'cos': 0.9976, 'cos_wrong_pair': 0.9974, 'match_acc': 0.375, 'lr': 3.368421052631579e-05, 'sec': 3100, 'sec_per_step': 7.4, 'mem_GB': 16.2}
+{'step': 440, 'epoch': 3, 'lm': 0.1555, 'jepa': 0.0014, 'cos': 0.9986, 'cos_wrong_pair': 0.9983, 'match_acc': 0.375, 'lr': 2.5263157894736845e-05, 'sec': 3244, 'sec_per_step': 7.4, 'mem_GB': 15.2}
+{'step': 460, 'epoch': 3, 'lm': 0.203, 'jepa': 0.0011, 'cos': 0.9989, 'cos_wrong_pair': 0.9988, 'match_acc': 0.5, 'lr': 1.6842105263157896e-05, 'sec': 3379, 'sec_per_step': 7.3, 'mem_GB': 15.3}
+{'step': 480, 'epoch': 3, 'lm': 0.1878, 'jepa': 0.001, 'cos': 0.999, 'cos_wrong_pair': 0.9989, 'match_acc': 0.125, 'lr': 8.421052631578948e-06, 'sec': 3520, 'sec_per_step': 7.3, 'mem_GB': 16.2}
+{'step': 500, 'epoch': 3, 'lm': 0.1081, 'jepa': 0.001, 'cos': 0.999, 'cos_wrong_pair': 0.9989, 'match_acc': 0.5, 'lr': 0.0, 'sec': 3659, 'sec_per_step': 7.3, 'mem_GB': 15.3}
+/Users/arvindarya/Documents/jepa-mt/.venv/lib/python3.13/site-packages/peft/utils/other.py:1508: UserWarning: Unable to fetch remote file due to the following error [Errno 8] nodename nor servname provided, or not known - silently ignoring the lookup for the file config.json in google/gemma-2-2b-it.
+  warnings.warn(
+/Users/arvindarya/Documents/jepa-mt/.venv/lib/python3.13/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in google/gemma-2-2b-it - will assume that the vocabulary was not modified.
+  warnings.warn(
+done in 3660s -> runs/asm_1000_jepa-plain-k1-l1_s1/adapter

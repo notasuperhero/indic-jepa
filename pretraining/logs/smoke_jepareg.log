@@ -1,0 +1,16 @@
+device mps  method jepa  vocab 8000  train tokens 39,600,000  epochs over data ~0.1
+trainable parameters 7.50M
+{'step': 1, 'loss': 0.9842, 'target_std': 0.6621, 'pred_std': 0.7079, 'var_l': 0.2703, 'cov_l': 4.627, 'lr': 1.7e-05, 'sec': 0, 'ms_per_step': 389}
+{'step': 50, 'loss': 0.5937, 'target_std': 0.7173, 'pred_std': 0.0616, 'var_l': 0.1735, 'cov_l': 4.2445, 'lr': 0.000418, 'sec': 8, 'ms_per_step': 158}
+{'step': 100, 'loss': 0.5055, 'target_std': 0.7669, 'pred_std': 0.2199, 'var_l': 0.0626, 'cov_l': 4.2517, 'lr': 0.000467, 'sec': 15, 'ms_per_step': 150}
+{'step': 150, 'loss': 0.4091, 'target_std': 0.8351, 'pred_std': 0.4277, 'var_l': 0.0222, 'cov_l': 2.4988, 'lr': 0.000427, 'sec': 22, 'ms_per_step': 148}
+{'step': 200, 'loss': 0.3647, 'target_std': 0.8753, 'pred_std': 0.599, 'var_l': 0.0106, 'cov_l': 1.4628, 'lr': 0.000375, 'sec': 29, 'ms_per_step': 146}
+{'step': 250, 'loss': 0.3631, 'target_std': 0.902, 'pred_std': 0.6555, 'var_l': 0.0079, 'cov_l': 1.0669, 'lr': 0.000315, 'sec': 38, 'ms_per_step': 153}
+{'step': 300, 'loss': 0.3641, 'target_std': 0.9314, 'pred_std': 0.7222, 'var_l': 0.0044, 'cov_l': 0.8568, 'lr': 0.00025, 'sec': 48, 'ms_per_step': 159}
+{'step': 350, 'loss': 0.3528, 'target_std': 0.9396, 'pred_std': 0.7398, 'var_l': 0.0029, 'cov_l': 0.7118, 'lr': 0.000185, 'sec': 56, 'ms_per_step': 159}
+{'step': 400, 'loss': 0.3553, 'target_std': 0.948, 'pred_std': 0.7967, 'var_l': 0.0022, 'cov_l': 0.6156, 'lr': 0.000125, 'sec': 64, 'ms_per_step': 161}
+{'step': 450, 'loss': 0.3542, 'target_std': 0.9521, 'pred_std': 0.8137, 'var_l': 0.0013, 'cov_l': 0.5766, 'lr': 7.3e-05, 'sec': 73, 'ms_per_step': 162}
+{'step': 500, 'loss': 0.3544, 'target_std': 0.9622, 'pred_std': 0.8371, 'var_l': 0.0009, 'cov_l': 0.5413, 'lr': 3.3e-05, 'sec': 81, 'ms_per_step': 163, 'val_loss': 0.3557, 'val_target_std': 0.9597, 'val_pred_std': 0.8316, 'val_var_l': 0.0012, 'val_cov_l': 0.5402}
+{'step': 550, 'loss': 0.3526, 'target_std': 0.9615, 'pred_std': 0.8444, 'var_l': 0.0006, 'cov_l': 0.5294, 'lr': 9e-06, 'sec': 90, 'ms_per_step': 164}
+{'step': 600, 'loss': 0.3541, 'target_std': 0.9633, 'pred_std': 0.8524, 'var_l': 0.0011, 'cov_l': 0.5226, 'lr': 0.0, 'sec': 99, 'ms_per_step': 165, 'val_loss': 0.3566, 'val_target_std': 0.9626, 'val_pred_std': 0.8435, 'val_var_l': 0.0009, 'val_cov_l': 0.5237}
+done in 100s -> runs/smoke_jepareg/encoder.pt

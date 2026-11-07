@@ -1,0 +1,5 @@
+mlm_s1: 1154 reviews -> features (1154, 256)
+    k16: accuracy 59.2% ± 2.2
+    k64: accuracy 65.2% ± 5.0
+   k256: accuracy 70.6% ± 1.9
+    all: accuracy 76.0% ± 2.3

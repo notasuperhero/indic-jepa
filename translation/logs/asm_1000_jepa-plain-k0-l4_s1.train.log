@@ -1,0 +1,69 @@
+Could not reach the Hub ([Errno 8] nodename nor servname provided, or not known). Using cached commit hash for 'google/gemma-2-2b-it'.
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Could not reach the Hub ([Errno 8] nodename nor servname provided, or not known). Using cached commit hash for 'google/gemma-2-2b-it'.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+W1107 15:23:38.603000 24342 .venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 19160.88it/s]
+trainable params: 20,766,720 || all params: 2,635,108,608 || trainable%: 0.7881
+device mps  train pairs 1000  mode jepa  lang Assamese  variant plain  lbd 4.0  pred_k 0
+{'step': 1, 'epoch': 0, 'lm': 2.4342, 'jepa': 0.2082, 'cos': 0.7918, 'cos_wrong_pair': 0.7935, 'match_acc': 0.125, 'lr': 1.6000000000000003e-05, 'sec': 6, 'sec_per_step': 5.8, 'mem_GB': 14.2}
+{'step': 2, 'epoch': 0, 'lm': 1.9703, 'jepa': 0.1437, 'cos': 0.8563, 'cos_wrong_pair': 0.8517, 'match_acc': 0.125, 'lr': 2.4e-05, 'sec': 11, 'sec_per_step': 5.3, 'mem_GB': 14.6}
+{'step': 3, 'epoch': 0, 'lm': 2.1976, 'jepa': 0.1255, 'cos': 0.8745, 'cos_wrong_pair': 0.8669, 'match_acc': 0.375, 'lr': 3.2000000000000005e-05, 'sec': 15, 'sec_per_step': 5.1, 'mem_GB': 14.6}
+{'step': 4, 'epoch': 0, 'lm': 2.0961, 'jepa': 0.1431, 'cos': 0.8569, 'cos_wrong_pair': 0.8395, 'match_acc': 0.25, 'lr': 4e-05, 'sec': 21, 'sec_per_step': 5.3, 'mem_GB': 15.2}
+{'step': 5, 'epoch': 0, 'lm': 2.4081, 'jepa': 0.0868, 'cos': 0.9132, 'cos_wrong_pair': 0.9054, 'match_acc': 0.125, 'lr': 4.8e-05, 'sec': 26, 'sec_per_step': 5.1, 'mem_GB': 15.6}
+{'step': 6, 'epoch': 0, 'lm': 2.175, 'jepa': 0.0696, 'cos': 0.9304, 'cos_wrong_pair': 0.9252, 'match_acc': 0.375, 'lr': 5.6000000000000006e-05, 'sec': 32, 'sec_per_step': 5.3, 'mem_GB': 16.2}
+{'step': 7, 'epoch': 0, 'lm': 2.2832, 'jepa': 0.0415, 'cos': 0.9585, 'cos_wrong_pair': 0.9547, 'match_acc': 0.25, 'lr': 6.400000000000001e-05, 'sec': 36, 'sec_per_step': 5.2, 'mem_GB': 15.6}
+{'step': 8, 'epoch': 0, 'lm': 2.2121, 'jepa': 0.0607, 'cos': 0.9393, 'cos_wrong_pair': 0.9402, 'match_acc': 0.25, 'lr': 7.2e-05, 'sec': 41, 'sec_per_step': 5.1, 'mem_GB': 16.6}
+{'step': 9, 'epoch': 0, 'lm': 2.1662, 'jepa': 0.0412, 'cos': 0.9588, 'cos_wrong_pair': 0.956, 'match_acc': 0.125, 'lr': 8e-05, 'sec': 46, 'sec_per_step': 5.1, 'mem_GB': 15.2}
+{'step': 10, 'epoch': 0, 'lm': 1.6759, 'jepa': 0.0525, 'cos': 0.9475, 'cos_wrong_pair': 0.9483, 'match_acc': 0.125, 'lr': 8.800000000000001e-05, 'sec': 54, 'sec_per_step': 5.4, 'mem_GB': 15.3}
+{'step': 20, 'epoch': 0, 'lm': 1.7345, 'jepa': 0.0091, 'cos': 0.9909, 'cos_wrong_pair': 0.99, 'match_acc': 0.25, 'lr': 0.000168, 'sec': 106, 'sec_per_step': 5.3, 'mem_GB': 15.6}
+{'step': 40, 'epoch': 0, 'lm': 1.5903, 'jepa': 0.0142, 'cos': 0.9858, 'cos_wrong_pair': 0.9837, 'match_acc': 0.375, 'lr': 0.0001936842105263158, 'sec': 226, 'sec_per_step': 5.6, 'mem_GB': 15.6}
+{'step': 60, 'epoch': 0, 'lm': 1.475, 'jepa': 0.0067, 'cos': 0.9933, 'cos_wrong_pair': 0.9926, 'match_acc': 0.375, 'lr': 0.00018526315789473685, 'sec': 351, 'sec_per_step': 5.9, 'mem_GB': 15.1}
+{'step': 80, 'epoch': 0, 'lm': 1.5334, 'jepa': 0.003, 'cos': 0.997, 'cos_wrong_pair': 0.9962, 'match_acc': 0.625, 'lr': 0.0001768421052631579, 'sec': 473, 'sec_per_step': 5.9, 'mem_GB': 14.2}
+{'step': 100, 'epoch': 0, 'lm': 1.2478, 'jepa': 0.0022, 'cos': 0.9978, 'cos_wrong_pair': 0.9974, 'match_acc': 0.5, 'lr': 0.00016842105263157895, 'sec': 600, 'sec_per_step': 6.0, 'mem_GB': 15.2}
+{'step': 120, 'epoch': 0, 'lm': 1.5312, 'jepa': 0.0048, 'cos': 0.9952, 'cos_wrong_pair': 0.9945, 'match_acc': 0.75, 'lr': 0.00016, 'sec': 716, 'sec_per_step': 6.0, 'mem_GB': 15.2}
+{'step': 140, 'epoch': 1, 'lm': 0.7146, 'jepa': 0.0016, 'cos': 0.9984, 'cos_wrong_pair': 0.9977, 'match_acc': 0.75, 'lr': 0.00015157894736842108, 'sec': 836, 'sec_per_step': 6.0, 'mem_GB': 16.1}
+{'step': 160, 'epoch': 1, 'lm': 1.0241, 'jepa': 0.0024, 'cos': 0.9976, 'cos_wrong_pair': 0.9964, 'match_acc': 0.875, 'lr': 0.0001431578947368421, 'sec': 958, 'sec_per_step': 6.0, 'mem_GB': 16.6}
+{'step': 180, 'epoch': 1, 'lm': 1.0387, 'jepa': 0.0017, 'cos': 0.9983, 'cos_wrong_pair': 0.9974, 'match_acc': 0.75, 'lr': 0.00013473684210526317, 'sec': 1068, 'sec_per_step': 5.9, 'mem_GB': 15.2}
+{'step': 200, 'epoch': 1, 'lm': 0.9672, 'jepa': 0.0018, 'cos': 0.9982, 'cos_wrong_pair': 0.9967, 'match_acc': 0.75, 'lr': 0.0001263157894736842, 'sec': 1175, 'sec_per_step': 5.9, 'mem_GB': 15.6}
+{'step': 220, 'epoch': 1, 'lm': 0.9124, 'jepa': 0.0024, 'cos': 0.9976, 'cos_wrong_pair': 0.9966, 'match_acc': 0.875, 'lr': 0.00011789473684210525, 'sec': 1290, 'sec_per_step': 5.9, 'mem_GB': 16.6}
+{'step': 240, 'epoch': 1, 'lm': 0.8046, 'jepa': 0.0017, 'cos': 0.9983, 'cos_wrong_pair': 0.9975, 'match_acc': 0.75, 'lr': 0.00010947368421052633, 'sec': 1407, 'sec_per_step': 5.9, 'mem_GB': 15.3}
+{'step': 260, 'epoch': 2, 'lm': 0.5965, 'jepa': 0.0029, 'cos': 0.9971, 'cos_wrong_pair': 0.9951, 'match_acc': 1.0, 'lr': 0.00010105263157894738, 'sec': 1524, 'sec_per_step': 5.9, 'mem_GB': 16.3}
+{'step': 280, 'epoch': 2, 'lm': 0.5417, 'jepa': 0.002, 'cos': 0.998, 'cos_wrong_pair': 0.9972, 'match_acc': 0.875, 'lr': 9.263157894736843e-05, 'sec': 1638, 'sec_per_step': 5.9, 'mem_GB': 16.2}
+{'step': 300, 'epoch': 2, 'lm': 0.5638, 'jepa': 0.0015, 'cos': 0.9985, 'cos_wrong_pair': 0.9973, 'match_acc': 1.0, 'lr': 8.421052631578948e-05, 'sec': 1748, 'sec_per_step': 5.8, 'mem_GB': 16.6}
+{'step': 320, 'epoch': 2, 'lm': 0.5172, 'jepa': 0.0022, 'cos': 0.9978, 'cos_wrong_pair': 0.9966, 'match_acc': 0.875, 'lr': 7.578947368421054e-05, 'sec': 1860, 'sec_per_step': 5.8, 'mem_GB': 16.6}
+{'step': 340, 'epoch': 2, 'lm': 0.536, 'jepa': 0.0016, 'cos': 0.9984, 'cos_wrong_pair': 0.9967, 'match_acc': 0.875, 'lr': 6.736842105263159e-05, 'sec': 1972, 'sec_per_step': 5.8, 'mem_GB': 17.3}
+{'step': 360, 'epoch': 2, 'lm': 0.4056, 'jepa': 0.0016, 'cos': 0.9984, 'cos_wrong_pair': 0.997, 'match_acc': 1.0, 'lr': 5.894736842105263e-05, 'sec': 2086, 'sec_per_step': 5.8, 'mem_GB': 16.3}
+{'step': 380, 'epoch': 3, 'lm': 0.2079, 'jepa': 0.0017, 'cos': 0.9983, 'cos_wrong_pair': 0.9973, 'match_acc': 0.75, 'lr': 5.052631578947369e-05, 'sec': 2197, 'sec_per_step': 5.8, 'mem_GB': 16.1}
+{'step': 400, 'epoch': 3, 'lm': 0.1987, 'jepa': 0.0022, 'cos': 0.9978, 'cos_wrong_pair': 0.9966, 'match_acc': 0.625, 'lr': 4.210526315789474e-05, 'sec': 2311, 'sec_per_step': 5.8, 'mem_GB': 15.6}
+{'step': 420, 'epoch': 3, 'lm': 0.1204, 'jepa': 0.0018, 'cos': 0.9982, 'cos_wrong_pair': 0.9958, 'match_acc': 1.0, 'lr': 3.368421052631579e-05, 'sec': 2425, 'sec_per_step': 5.8, 'mem_GB': 15.1}
+{'step': 440, 'epoch': 3, 'lm': 0.1735, 'jepa': 0.0016, 'cos': 0.9984, 'cos_wrong_pair': 0.9972, 'match_acc': 0.625, 'lr': 2.5263157894736845e-05, 'sec': 2539, 'sec_per_step': 5.8, 'mem_GB': 15.1}
+{'step': 460, 'epoch': 3, 'lm': 0.2101, 'jepa': 0.0021, 'cos': 0.9979, 'cos_wrong_pair': 0.9952, 'match_acc': 0.875, 'lr': 1.6842105263157896e-05, 'sec': 2647, 'sec_per_step': 5.8, 'mem_GB': 14.3}
+{'step': 480, 'epoch': 3, 'lm': 0.2116, 'jepa': 0.0015, 'cos': 0.9985, 'cos_wrong_pair': 0.9967, 'match_acc': 0.75, 'lr': 8.421052631578948e-06, 'sec': 2760, 'sec_per_step': 5.8, 'mem_GB': 17.2}
+{'step': 500, 'epoch': 3, 'lm': 0.1299, 'jepa': 0.0016, 'cos': 0.9984, 'cos_wrong_pair': 0.9959, 'match_acc': 1.0, 'lr': 0.0, 'sec': 2871, 'sec_per_step': 5.7, 'mem_GB': 15.2}
+/Users/arvindarya/Documents/jepa-mt/.venv/lib/python3.13/site-packages/peft/utils/other.py:1508: UserWarning: Unable to fetch remote file due to the following error [Errno 8] nodename nor servname provided, or not known - silently ignoring the lookup for the file config.json in google/gemma-2-2b-it.
+  warnings.warn(
+/Users/arvindarya/Documents/jepa-mt/.venv/lib/python3.13/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in google/gemma-2-2b-it - will assume that the vocabulary was not modified.
+  warnings.warn(
+done in 2871s -> runs/asm_1000_jepa-plain-k0-l4_s1/adapter

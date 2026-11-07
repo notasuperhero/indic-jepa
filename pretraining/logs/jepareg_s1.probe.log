@@ -1,0 +1,5 @@
+jepareg_s1: 1154 reviews -> features (1154, 256)
+    k16: accuracy 55.0% ± 4.6
+    k64: accuracy 61.1% ± 1.4
+   k256: accuracy 61.4% ± 1.9
+    all: accuracy 63.0% ± 2.8

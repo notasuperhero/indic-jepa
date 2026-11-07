@@ -1,0 +1,11 @@
+
+
+
+parquet: 110,238 documents; string columns ['doc_id', 'text', 'type']; using 'text'
+  example: 1 Uru-o ti ibidaba. Anduane Homogonaga mini mo yaraga halu iba gana lami̱ya ibidaba. ibuhondo turu halu iba gana lo mimi̱ya ibidaba. 2 Iname ibu kagor
+tokenizer: 8000 tokens
+  'অসমীয়া ভাষা অসমৰ ৰাজ্যিক ভাষা।' -> ['▁অসমীয়া', '▁ভাষা', '▁অসমৰ', '▁ৰাজ্যিক', '▁ভাষ', 'া।']
+  0.9M tokens  1.6M tokens  2.4M tokens  3.1M tokens  4.0M tokens  4.8M tokens  5.6M tokens  6.4M tokens  7.2M tokens  8.0M tokens  8.7M tokens  9.5M tokens  10.2M tokens  11.1M tokens  11.8M tokens  12.7M tokens  13.5M tokens  14.3M tokens  15.1M tokens  15.8M tokens  16.6M tokens  17.4M tokens  18.1M tokens  18.9M tokens  19.7M tokens  20.5M tokens  21.4M tokens  22.2M tokens  22.9M tokens  23.6M tokens  24.4M tokens  25.2M tokens  26.1M tokens  26.9M tokens  27.7M tokens  28.4M tokens  29.2M tokens  30.0M tokens  30.8M tokens  31.5M tokens  32.3M tokens  33.0M tokens  33.8M tokens  34.7M tokens  35.5M tokens  36.3M tokens  37.1M tokens  37.8M tokens  38.7M tokens  39.4M tokens  40.3M tokens
+  train 39,600,000 tokens, val 400,000 tokens
+IndicSentiment (as): 1154 reviews, 581 positive / 573 negative
+PREPARE OK

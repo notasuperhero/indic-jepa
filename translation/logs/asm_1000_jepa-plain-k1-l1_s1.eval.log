@@ -1,0 +1,56 @@
+Could not reach the Hub ([Errno 8] nodename nor servname provided, or not known). Using cached commit hash for 'google/gemma-2-2b-it'.
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main/additional_chat_templates
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 1s [Retry 1/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 2s [Retry 2/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 4s [Retry 3/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 8s [Retry 4/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Retrying in 8s [Retry 5/5].
+'[Errno 8] nodename nor servname provided, or not known' thrown while requesting GET https://huggingface.co/api/models/google/gemma-2-2b-it/tree/main
+Could not reach the Hub ([Errno 8] nodename nor servname provided, or not known). Using cached commit hash for 'google/gemma-2-2b-it'.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+W1107 15:18:32.140000 24294 .venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights: 100%|██████████| 288/288 [00:00<00:00, 6590.21it/s]
+  16/300  (13s)
+  32/300  (26s)
+  48/300  (40s)
+  64/300  (53s)
+  80/300  (67s)
+  96/300  (80s)
+  112/300  (93s)
+  128/300  (106s)
+  144/300  (119s)
+  160/300  (132s)
+  176/300  (145s)
+  192/300  (159s)
+  208/300  (171s)
+  224/300  (185s)
+  240/300  (199s)
+  256/300  (213s)
+  272/300  (228s)
+  288/300  (241s)
+  300/300  (254s)
+asm_1000_jepa-plain-k1-l1_s1: chrF++ = 22.50 on 300 sentences
+  EN : An appearance is a bunch of attributes related to the service person, like their shoes, clothes, tie 
+  REF: এটা বাহ্যিক ৰূপ হৈছে সশস্ত্র বাহিনীৰ জোৱানগৰাকীৰ সৈতে জড়িত কেইবাটাও বৈশিষ্ট, যেনে তেওঁৰ জোতা, কাপোৰ 
+  HYP: এটা উপস্থাপনা হৈছে সেৱা কৰোৱা ব্যক্তিৰ সৈতে জড়িত বৈশিষ্টসমূহৰ এটা বাকলি। ই বনোৱা বস্তু, বস্ত্ৰ, বন্
+  EN : Ajanta, located in the Aurangabad District of Maharashtra has twenty-nine caitya and vihara caves de 
+  REF: মহাৰাষ্ট্রৰ ঔৰঙ্গাবাদ জিলাত অৱস্থিত অজন্তাত খ্রীষ্টপূর্ব প্রথম শতিকাৰ পৰা খ্রীষ্টাব্দ পঞ্চম শতিকাৰ ভ 
+  HYP: মহাৰাষ্ট্ৰৰ অ ponúৰাবাদ জিলাত অৱস্থিত আজন্তাই প্ৰথম শতিকা খ্ৰীষ্টি গ. চ. ই.ৰ পৰা পঞ্চম শতিকা খ্ৰীষ্ট
+  EN : Body colour gets merged with the outer line, creating the effect of volume. 
+  REF: দেহৰ ৰং বাহিৰত থকা ৰেখাডালৰ লগত মিলি যায়, যিয়ে ভলিউমৰ ইফেক্টটো সৃষ্টি কৰে। 
+  HYP: শৰীৰৰ ৰং বাওঁফালৰ সৈতে মিলাই অহাৰ প্ৰভাৱ পোৱা যায়।
